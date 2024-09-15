@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+body{
+    text-align: center;
+    font-family: "Julius Sans One", sans-serif;
+    background-image: url(Phone\ wallpaper\ gradient\ aesthetic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 63px;
+    background: #ffffff;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+    
+.header{
+    height: 60vh !important;
+}
+
+.title{
+    margin-bottom: 40px;
+    font-size: 60spx;
+    font-weight: 600;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+h1{
+    font-size: 70px; 
+    font-weight: bold; 
+    color: #ffffff; 
+    background-position: center;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 40px;
+} 
+
+h3{
+    font-size: 50px; 
+    font-weight: bold; 
+    color: #ffffff;  
+    background-color: #ff9fef;
+    background-position: center;
+}
+
+p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #ffffff;
+    justify-content: center;
+}
+
+.proyectos { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    column-gap: 30px;
+    row-gap: 20px; 
+    height: 450px; 
+    overflow-y: auto; 
+    background-color: #ffffff;
+}
+
+
+.proyectos nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px; 
+    width: 1400px;
+    height: 1000px;
+    
+
+}
+
+.proyectos a { 
+    display: block; 
+}
+
+.proyectos nav a img { 
+    width: 40%;
+    border-radius: 10px; 
+    margin-bottom: 1ex; 
+    border: 3px solid transparent; 
+}
+
+.proyectos nav a:hover img {
+    filter: blur(5px); 
+    opacity: 90%;
+}
+
+button { /* Estilo para los botones */
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 10px 20px; /* Padding de 10px arriba y abajo, 20px a los lados */
+    background-color: rgba(225, 41, 231, 0.527); /* Color de fondo gris claro */
+    font-size: 14px; /* Tamaño de fuente de 14px */
+    font-weight: bold; /* Texto en negrita */
+    color: #ffffff; /* Texto naranja */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cursor de mano al pasar por encima */
+}
+
+button:hover { /* Estilo hover para los botones */
+    background-color:#ff74df ; /* Fondo cambia a naranja */
+    color:#ffffff  ; /* Texto cambia a negro */
+    font-weight: bold; /* Mantiene el texto en negrita */
+}
+
+.sau{
+    padding: 50px;
+    background:#f747e9 ;
+}
