@@ -1,77 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
 
+
+*, html { /* Aplica a todos los elementos y al elemento html */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
 body{
-    text-align: center;
-    font-family: "Julius Sans One", sans-serif;
-    background-image: url(Phone\ wallpaper\ gradient\ aesthetic.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-*{
     margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    vertical-align: baseline;
 }
-
 
 .head{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 63px;
-    background: #ffffff;
-    position: fixed;
     width: 100%;
     z-index: 100;
+    background: #ffffff
 }
 
-.header{
-    display: flex;
+header{
+    background-image: url(Phone\ wallpaper\ gradient\ aesthetic.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+    min-height: 70vh;
+    padding: 30px 30px 30px;
 }
-    
-.header{
-    height: 60vh !important;
+
+.header-content{
+    text-align: center;
 }
 
 .title{
-    margin-bottom: 40px;
-    font-size: 60spx;
-    font-weight: 600;
-    text-transform: uppercase;
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
-}
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  padding: 30px;
 
-h1{
-    font-size: 70px; 
-    font-weight: bold; 
-    color: #ffffff; 
-    background-position: center;
-    justify-content: center;
-    align-items: flex-end;
-    padding: 40px;
 } 
 
-h3{
-    font-size: 50px; 
-    font-weight: bold; 
-    color: #ffffff;  
-    background-color: #ff9fef;
-    background-position: center;
+.content{
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 25px;
 }
 
-p{
-    margin-bottom: 40px;
-    font-size: 18px;
-    color: #ffffff;
-    justify-content: center;
+.title2{
+    font-size: 30px; 
+    font-weight: bold; 
+    color: #ffffff;  
+    text-align: center;
+    background-color: #ff9fef;
+    background-position: center;
+    padding: 1px;
 }
+
 
 .proyectos { 
     display: grid; 
@@ -90,8 +79,6 @@ p{
     margin-top: 100px; 
     width: 1400px;
     height: 1000px;
-    
-
 }
 
 .proyectos a { 
@@ -121,10 +108,10 @@ button { /* Estilo para los botones */
     cursor: pointer; /* Cursor de mano al pasar por encima */
 }
 
-button:hover { /* Estilo hover para los botones */
-    background-color:#ff74df ; /* Fondo cambia a naranja */
-    color:#ffffff  ; /* Texto cambia a negro */
-    font-weight: bold; /* Mantiene el texto en negrita */
+button:hover{
+    background-color:#ff74df ; 
+    color:#ffffff  ;
+    font-weight: bold;
 }
 
 .sau{
@@ -137,15 +124,125 @@ button:hover { /* Estilo hover para los botones */
 }
 
 .Encargo-1{
-    width: 50px;
-    padding: 100px 250px 100px 100px;
-    background-color: #ffffff;
+    width: 500px;
+    padding: 40px 200px 40px 40px;
+    background-color: #ff9fef
+}
+.Encargo-1 h2{
+    font-size: 20px;
+    line-height: 70px;
+    color:#ffffff;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.Encargo-1 p{
+    color: #ffffff;
+    font-size: 20px;
 }
 
 .Encargo-11{
-    background-image: url(1ra\ tarea.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50px;
+background-image: url(1ra\ tarea.png);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: contain;
+width: 50%;
+}
+
+
+.Encargo2{
+    display: flex;
+}
+
+.Encargo-2{
+    width: 500px;
+    padding: 40px 200px 40px 40px;
+    background-color: #ffffff
+}
+.Encargo-2 h2{
+    font-size: 20px;
+    line-height: 70px;
+    color: #f747e9;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.Encargo-2 p{
+    color: #f747e9;
+    font-size: 20px;
+}
+
+.Encargo-22{
+background-image: url(2da\ tarea.png);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: contain;
+width: 50%;
+}
+
+
+.Encargo3{
+    display: flex;
+}
+
+.Encargo-3{
+    width: 500px;
+    padding: 40px 200px 40px 40px;
+    background-color: #ff9fef
+}
+.Encargo-3 h2{
+    font-size: 20px;
+    line-height: 70px;
+    color:#ffffff;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    font-weight: bold;
+    
+}
+
+.Encargo-3 p{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.Encargo-33{
+background-image: url(3ra\ tarea.png);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: contain;
+width: 50%;
+}
+
+
+.Encargo4{
+    display: flex;
+}
+
+.Encargo-4{
+    width: 500px;
+    padding: 40px 200px 40px 40px;
+    background-color: #ffffff
+}
+.Encargo-4 h2{
+    font-size: 20px;
+    line-height: 70px;
+    color: #f747e9;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.Encargo-4 p{
+    color: #f747e9;
+    font-size: 20px;
+}
+
+.Encargo-44{
+background-image: url(4ta\ tarea.png);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: contain;
+width: 50%;
 }
