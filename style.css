@@ -246,3 +246,99 @@ background-repeat: no-repeat;
 background-size: contain;
 width: 50%;
 }
+
+.Encargo5{
+    display: flex;
+}
+
+.Encargo-5{
+    width: 500px;
+    padding: 40px 200px 40px 40px;
+    background-color: #ff9fef
+}
+.Encargo-5 h2{
+    font-size: 20px;
+    line-height: 70px;
+    color:#ffffff;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    font-weight: bold;
+    
+}
+
+.Encargo-5 p{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.Encargo-55{
+background-image: url(5ta\ tarea.png);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: contain;
+width: 50%;
+}
+
+.Encargo6{
+    display: flex;
+}
+
+.Encargo-6{
+    width: 500px;
+    padding: 40px 200px 40px 40px;
+    background-color: #ffffff
+}
+.Encargo-6 h2{
+    font-size: 20px;
+    line-height: 70px;
+    color: #f747e9;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.Encargo-6 p{
+    color: #f747e9;
+    font-size: 20px;
+}
+
+.Encargo-66{
+background-image: url(6ta\ tarea.png);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: contain;
+width: 50%;
+}
+
+
+.Encargo7{
+    display: flex;
+}
+
+.Encargo-7{
+    width: 500px;
+    padding: 40px 200px 40px 40px;
+    background-color: #ff9fef
+}
+.Encargo-7 h2{
+    font-size: 20px;
+    line-height: 70px;
+    color:#ffffff;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    font-weight: bold;
+    
+}
+
+.Encargo-7 p{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.Encargo-77{
+background-image: url(7ta\ tarea.png);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: contain;
+width: 50%;
+}
